@@ -37,7 +37,7 @@ public class SelectorsCSS {
 
         threadSleep();
         WebElement btnLogInHeader = driver.findElement(By.cssSelector("a[ng-reflect-router-link='login']"));
-        btnLogInHeader.click(); // Click on the "Registration" link in the header
+        btnLogInHeader.click(); // Click on the "Login" link in the header
         System.out.println("5. " + btnLogInHeader.getText());
 
         threadSleep();
